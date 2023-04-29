@@ -14,7 +14,7 @@ const warningText = document.querySelector('#warningArea');
         warningText.style.color ='red';
         successText.textContent = '';
      
-    } else if (namePreview.textContent === 'YOUR NAME') {
+    } else if (namePreview.textContent.toLowerCase() === 'YOUR NAME'.toLowerCase()) {
         warningText.textContent = 'Please enter your custom name.';
         successText.textContent = '';
       
